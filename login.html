@@ -18,7 +18,6 @@
     <meta charset="utf-8">
     <title>Ubox - Operador Carpeta Ciudadana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
     <meta name="author" content="Umbrella Corp.">
 
     <!-- The styles -->
@@ -52,52 +51,138 @@
 
 </head>
 
-<body>
-<div class="ch-container">
-    <div class="row">
-        
-    <div class="row">
- 
-        <!--/span-->
-    </div><!--/row-->
+<SCRIPT LANGUAGE=JAVASCRIPT>
 
+function enviar_formulario() {
+
+	var usuario = document.getElementById('usuariotxt').value;
+	
+	if (usuario=="Administrador") {
+        document.formLogin.action = 'indexAdmin.html';
+    }else{
+		document.formLogin.action = 'index.html';
+	}
+	
+    return true;
+}
+
+</SCRIPT>
+
+<body>
+
+	<table width="100%">
+		<tr>	
+			<td >
+				<br/>
+				<br/>	
+				<div class="pull-right">|  <a href="#">Contáctenos</a>  |</div>			
+			</td>
+		</tr>	
+	</table>
+
+    <!-- topbar starts -->
+    <div class="navbar navbar-default" role="navigation">
+
+        <div class="navbar-innerLogin">   
+            <img alt="Ubox" src="img/logo20.png" width="300px"/>     
+        </div>
+    </div>
+    <!-- topbar ends -->
 	
 
+	<table>
+		<tr>	
+			<td width="50%" style="padding-left:130px">
+				<h4>
+				Ubox como operador de Carpeta Ciudadana esta autorizado por ley para registrar y operar la solución tecnológica.
+				Brindamos a nuestros usuarios el mejor medio para acceder a los servicios de gestión de sus documentos
+				a través del acceso web y de manera asistida.
+				</h4>
+				<br/>
+				<h4>
+				Invitamos a los ciudadanos a disfrutar de nuestros servicios de control de documentos para trámites con entidades
+				públicas y privadas.
+				</h4>
+				<br/>
+				<br/>	
+				 <a class="btn btn-success" href="registroUsuario.html">Registrarse en Ubox</a>		
+			</td>
+			<td width="10%">
+			<div class="pull-right">
+			<img alt="Ubox" src="img/imgLogin.png" /> 
+			</div>
+			
+			
+			</td>
+			<td width="40%">
+			<div class="row">
+				<div class="well col-md-10 pull-right login-box">
+				<div class="alert alert-info">
+					Si usted es un usuario registrado, ingrese su usuario y su clave para ingresar.
+				</div>
+				<form name="formLogin" class="form-horizontal" method="post">
+					<fieldset>
+						<div class="input-group input-group-lg">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
+							<input id="usuariotxt" type="text" class="form-control" placeholder="Usuario">
+						</div>
+						<div class="clearfix"></div><br>
+	
+						<div class="input-group input-group-lg">
+							<span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
+							<input type="password" class="form-control" placeholder="Clave">
+						</div>
+						<div class="clearfix"></div>
+	
+						<div class="input-prepend">
+							<label class="remember" for="remember"><input type="checkbox" id="remember"> Recordarme</label>
+						</div>
+						
+						<div></div>
+						<div class="center">
+						<a href="#">*Olvidé mi contraseña</a>
+						</div>
+						
+						<p class="center col-md-5">
+							<button type="submit" class="btn btn-primary" onClick="return enviar_formulario()">Entrar</button>
+						</p>
+					</fieldset>
+				</form>
+			</div>
+			</div>	
+			</td>
+		</tr>		
+	</table>
 
+    <hr>
 
-    <div class="row">
-        <div class="well col-md-4 center login-box">
-            <div class="alert alert-info">
-                Por favor ingrese su usuario y su clave para entrar.
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+         aria-hidden="true">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h3>Settings</h3>
+                </div>
+                <div class="modal-body">
+                    <p>Here settings can be configured...</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+                    <a href="#" class="btn btn-primary" data-dismiss="modal">Save changes</a>
+                </div>
             </div>
-            <form class="form-horizontal" action="index.html" method="post">
-                <fieldset>
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-user red"></i></span>
-                        <input type="text" class="form-control" placeholder="Usuario">
-                    </div>
-                    <div class="clearfix"></div><br>
-
-                    <div class="input-group input-group-lg">
-                        <span class="input-group-addon"><i class="glyphicon glyphicon-lock red"></i></span>
-                        <input type="password" class="form-control" placeholder="Clave">
-                    </div>
-                    <div class="clearfix"></div>
-
-                    <div class="input-prepend">
-                        <label class="remember" for="remember"><input type="checkbox" id="remember"> Recordarme</label>
-                    </div>
-                    <div class="clearfix"></div>
-
-                    <p class="center col-md-5">
-                        <button type="submit" class="btn btn-primary">Entrar</button>
-                    </p>
-                </fieldset>
-            </form>
         </div>
-        <!--/span-->
-    </div><!--/row-->
-</div><!--/fluid-row-->
+    </div>
+
+    <footer class="row">
+        <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">Muhammad
+                Usman</a> 2012 - 2014</p>
+
+        <p class="col-md-3 col-sm-3 col-xs-12 powered-by">Powered by: <a
+                href="http://usman.it/free-responsive-admin-template">Charisma</a></p>
+    </footer>
 
 </div><!--/.fluid-container-->
 

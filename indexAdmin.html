@@ -18,7 +18,6 @@
     <meta charset="utf-8">
     <title>Ubox - Operador Carpeta Ciudadana</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
     <meta name="author" content="Umbrella Corp.">
 
     <!-- The styles -->
@@ -56,32 +55,20 @@
     <!-- topbar starts -->
     <div class="navbar navbar-default" role="navigation">
 
-        <div class="navbar-inner">
-   
-            <img alt="Ubox" src="img/logo20.png" class="hidden-xs"/>
-               
-			
-		 
+        <div class="navbar-inner">   
+            <img alt="Ubox" src="img/logo20.png" class="hidden-xs"/> 
 
             <!-- user dropdown starts -->
-            <div class="btn-group pull-right">
+            <div class="btn-group pull-right">		
 			
-			
-			
-			<ul class="collapse navbar-collapse nav navbar-nav top-menu">
-                
-                
-                    <form >
-                        <input placeholder="Buscar" class="search-query form-control col-md-10" name="query"
-                               type="text">
-                    </form>
-                
-            </ul>
-			
-			
+			<ul class="collapse navbar-collapse nav navbar-nav top-menu">               
+              	<form >
+           			<input placeholder="Buscar" class="search-query form-control col-md-10" name="query" type="text">
+                </form>                
+            </ul>			
 			
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
+                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> Admin</span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
@@ -90,9 +77,7 @@
                     <li><a href="login.html">Salir</a></li>
                 </ul>
             </div>
-            <!-- user dropdown ends -->
-
-          
+            <!-- user dropdown ends -->         
 
         </div>
     </div>
@@ -107,43 +92,20 @@
                     <div class="nav-sm nav nav-stacked">
 
                     </div>
-                    <ul class="nav nav-pills nav-stacked main-menu">
-                       
-                        <li><a class="ajax-link" href="index.html"><i class="glyphicon glyphicon-home"></i><span> Inicio</span></a>
+                    <ul class="nav nav-pills nav-stacked main-menu">                         
+                        <li><a class="ajax-link" href="registro.html"><i class="glyphicon glyphicon-plus-sign"></i><span> Registrar Usuario</span></a>
+						</li>
+                        <li><a class="ajax-link" href="buzon.html"><i class="glyphicon glyphicon-edit"></i><span> Actualizar Usuario</span></a>
                         </li>
-                        <li><a class="ajax-link" href="miCuenta.html"><i class="glyphicon glyphicon-plus"></i><span> Mi Cuenta</span></a>
+                        <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-minus-sign"></i><span> Suspender Usuario</span></a>
                         </li>
-                        <li><a class="ajax-link" href="form.html"><i class="glyphicon glyphicon-th"></i><span> Mis Documentos</span></a></li>
-                        <li><a class="ajax-link" href="buzon.html"><i class="glyphicon glyphicon-calendar"></i><span> Buzón de Correo</span></a>
+						 <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-search"></i><span> Consultar Usuarios</span></a>
                         </li>
-                        <li><a class="ajax-link" href="instituciones.html"><i class="glyphicon glyphicon-edit"></i><span> Instituciones</span></a>
+						 <li><a class="ajax-link" href="reportesAdmin.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
                         </li>
-						 <li><a class="ajax-link" href="servicio.html"><i class="glyphicon glyphicon-star"></i><span> Servicios</span></a>
-                        </li>
-						 <li><a class="ajax-link" href="reportes.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
-                        </li>
-                        <li class="nav-header hidden-md">Sample Section</li>
-                        <li><a class="ajax-link" href="table.html"><i
-                                    class="glyphicon glyphicon-align-justify"></i><span> Tables</span></a></li>
-                        <li class="accordion">
-                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Accordion Menu</span></a>
-                            <ul class="nav nav-pills nav-stacked">
-                                <li><a href="#">Child Menu 1</a></li>
-                                <li><a href="#">Child Menu 2</a></li>
-                            </ul>
-                        </li>
-                        <li><a class="ajax-link" href="calendar.html"><i class="glyphicon glyphicon-calendar"></i><span> Calendar</span></a>
-                        </li>
-                        <li><a class="ajax-link" href="grid.html"><i class="glyphicon glyphicon-th"></i><span> Grid</span></a></li>
-                        <li><a href="tour.html"><i class="glyphicon glyphicon-globe"></i><span> Tour</span></a></li>
-                        <li><a class="ajax-link" href="icon.html"><i
-                                    class="glyphicon glyphicon-star"></i><span> Icons</span></a></li>
-                        <li><a href="error.html"><i class="glyphicon glyphicon-ban-circle"></i><span> Error Page</span></a>
-                        </li>
-                        <li><a href="login.html"><i class="glyphicon glyphicon-lock"></i><span> Login Page</span></a>
-                        </li>
-                    </ul>
-                    <label id="for-is-ajax" for="is-ajax"><input id="is-ajax" type="checkbox"> Ajax on menu</label>
+						 <li><a class="ajax-link" href="ui.html"><i class="glyphicon glyphicon-lock"></i><span> Mi cuenta</span></a>
+                        </li>                       
+                    </ul>                    
                 </div>
             </div>
         </div>
@@ -173,7 +135,7 @@
 </div>
 
 
-<div class="row" div="divInformacionPrincial">
+<div class="row">
     <div class="box col-md-12">
         <div class="box-inner">
             <div class="box-header well">
@@ -557,6 +519,7 @@
 <script src="js/jquery.history.js"></script>
 <!-- application script for Charisma demo -->
 <script src="js/charisma.js"></script>
+
 
 </body>
 </html>
