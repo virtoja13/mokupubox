@@ -52,7 +52,7 @@
 
 </head>
 
-<body>
+<body onLoad="liConfDatos()">
     <!-- topbar starts -->
     <div class="navbar navbar-default" role="navigation">
 
@@ -78,7 +78,7 @@
 			
 			
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
+                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> usuario</span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
@@ -111,13 +111,13 @@
                         <li class="accordion">
                             <a href=""><i class="glyphicon glyphicon-plus"></i><span> Mi Cuenta</span></a>
                             <ul class="nav nav-pills nav-stacked">
-                                <li onclick="liConfDatos()"><a href="#">Configuracion de mis datos</a></li>
+                                <li onClick="liConfDatos()"><a href="#">Mis datos</a></li>
                                 <li class="btn-idioma"><a href="#">Configurar idioma</a></li>
-								<li onclick="liCambioContrasenia()"><a href="#">Cambiar contrase&ntilde;a</a></li>
+								<li onClick="liCambioContrasenia()"><a href="#">Cambiar contrase&ntilde;a</a></li>
                             </ul>
                         </li>
                         <li><a class="ajax-link" href="#"><i class="glyphicon glyphicon-th"></i><span> Mis Documentos</span></a></li>
-                        <li><a class="ajax-link" href="#"><i class="glyphicon glyphicon-calendar"></i><span> Buzón de Correo</span></a>
+                        <li><a class="ajax-link" href="#"><i class="glyphicon glyphicon-calendar"></i><span> BuzÃ³n de Correo</span></a>
                         </li>
                         <li><a class="ajax-link" href="#"><i class="glyphicon glyphicon-edit"></i><span> Instituciones</span></a>
                         </li>
@@ -176,7 +176,7 @@
             <a href="#">Cambiar contrase&ntilde;a</a>
         </li>
 		<li id="liUbicacionConfDatos" style="display:none;">
-            <a href="#">Configuracion de mis datos</a>
+            <a href="#">Mis datos</a>
         </li>
     </ul>
 </div>
@@ -234,7 +234,7 @@
     <div class="box col-md-12">
         <div class="box-inner">
             <div class="box-header well">
-                <h2><i class="glyphicon glyphicon-info-sign"></i> Configuracion de mis datos</h2>
+                <h2><i class="glyphicon glyphicon-info-sign"></i> Mis datos</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-setting btn-round btn-default"><i
@@ -294,12 +294,18 @@
 								</select>
 							</td>
 						</tr>
+						<tr>
+							<td colspan="2">
+								<p>
+									<button type="submit" class="btn btn-primary pull-right">Guardar</button>
+								</p>
+							</td>
+						</tr>
 					</table>
 					<br>
-					<p class="center col-md-5">
-						<button type="submit" class="btn btn-primary">Guardar</button>
-					</p>
+															
                 </div>
+				
 			</div>
         </div>
     </div>
@@ -376,9 +382,9 @@
                         </li>
                         <li>
                             <a href="#">
-                                <img class="dashboard-avatar" alt="Min. de Educación"
+                                <img class="dashboard-avatar" alt="Min. de EducaciÃ³n"
                                      src="img/publicidad/educacion.png"></a>
-                            <strong>Nombre:</strong> <a href="#">Min. de Educación
+                            <strong>Nombre:</strong> <a href="#">Min. de EducaciÃ³n
                             </a><br>
                             <strong>Desde:</strong> 17/05/2014<br>
                             <strong>Estado:</strong> En proceso
@@ -444,7 +450,7 @@
     <div class="box col-md-4">
         <div class="box-inner">
             <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-list"></i> FreeDoc Autenticación</h2>
+                <h2><i class="glyphicon glyphicon-list"></i> FreeDoc AutenticaciÃ³n</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-setting btn-round btn-default"><i
@@ -468,7 +474,7 @@
             
                 <br/>
 
-                <p>Para conocer más haga clic <a href="#" target="_blank">aquí</a>.</p>
+                <p>Para conocer mÃ¡s haga clic <a href="#" target="_blank">aquÃ­</a>.</p>
 
             </div>
         </div>
@@ -502,7 +508,7 @@
 
             
                 <br/>
-				<small>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. </small> <br/><br/>
+				<small>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estandar de las industrias desde el ano 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usa una galeria de textos y los mezcla de tal manera que logro hacer un libro de textos especimen. </small> <br/><br/>
 
                 <p>Para incripciones ingrese a: <a href="#" target="_blank">Inscripciones</a>.</p>
 
@@ -514,7 +520,7 @@
     <div class="box col-md-4">
         <div class="box-inner">
             <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-list"></i> Telefonía Celular</h2>
+                <h2><i class="glyphicon glyphicon-list"></i> TelefonÃ­a Celular</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-setting btn-round btn-default"><i
@@ -539,7 +545,7 @@
             
                 <br/>
 
-                <p>Para conocer más haga clic <a href="#" target="_blank">aquí</a>.</p>
+                <p>Para conocer mÃ¡s haga clic <a href="#" target="_blank">aquÃ­</a>.</p>
 
             </div>
             
@@ -577,7 +583,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <button type="button" class="close" data-dismiss="modal">ï¿½</button>
                     <h3>Settings</h3>
                 </div>
                 <div class="modal-body">
@@ -595,7 +601,7 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <button type="button" class="close" data-dismiss="modal">ï¿½</button>
                     <h3>Seleccione idioma</h3>
                 </div>
                 <div class="modal-body">

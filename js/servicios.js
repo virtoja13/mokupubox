@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('.abrirDes1').click(function (e) {
         e.preventDefault();
         $('#modalServicio').modal('show');
-		$("#h3Info").text("Descripción");
+		$("#h3Info").text("Servicio B\xe1sico");
 		tabla = "<table>"+
 		"<tr><td>Gratis</td></tr>"+
 		"<tr><td>1 GB</td></tr>"+
@@ -18,7 +18,7 @@ $(document).ready(function(){
 	$('.abrirDes2').click(function (e) {
         e.preventDefault();
         $('#modalServicio').modal('show');
-		$("#h3Info").text("Descripción");
+		$("#h3Info").text("Premium Bronce");
 		tabla = "<table>"+
 		"<tr><td>$18.000</td></tr>"+
 		"<tr><td>20 GB</td></tr>"+
@@ -26,9 +26,9 @@ $(document).ready(function(){
 		"<tr><td>Compartir documentos</td></tr>"+
 		"<tr><td>Realizar pagos</td></tr>"+
 		"<tr><td>Notificaciones</td></tr>"+
-		"<tr><td>Sincronización con PC</td></tr>"+
-		"<tr><td>2 Trámites con notarias</td></tr>"+
-		"<tr><td>Prioridad en trámites</td></tr>"+
+		"<tr><td>Sincronizaci\xf3n con PC</td></tr>"+
+		"<tr><td>2 Tr\xe1mites con notarias</td></tr>"+
+		"<tr><td>Prioridad en tr\xe1mites</td></tr>"+
 		"</table>";
 		$("#divInfo").html(tabla);
     });
@@ -36,7 +36,7 @@ $(document).ready(function(){
 	$('.abrirDes3').click(function (e) {
         e.preventDefault();
         $('#modalServicio').modal('show');
-		$("#h3Info").text("Descripción");
+		$("#h3Info").text("Premium Plata");
 		tabla = "<table>"+
 		"<tr><td>$50.000</td></tr>"+
 		"<tr><td>80 GB</td></tr>"+
@@ -44,9 +44,9 @@ $(document).ready(function(){
 		"<tr><td>Compartir documentos</td></tr>"+
 		"<tr><td>Realizar pagos</td></tr>"+
 		"<tr><td>Notificaciones</td></tr>"+
-		"<tr><td>Sincronización con PC</td></tr>"+
-		"<tr><td>3 trámites con notarias</td></tr>"+
-		"<tr><td>Prioridad en trámites</td></tr>"+
+		"<tr><td>Sincronizaci\xf3n con PC</td></tr>"+
+		"<tr><td>3 tr\xe1mites con notarias</td></tr>"+
+		"<tr><td>Prioridad en tr\xe1mites</td></tr>"+
 		"</table>";
 		$("#divInfo").html(tabla);
     });
@@ -54,7 +54,7 @@ $(document).ready(function(){
 	$('.abrirDes4').click(function (e) {
         e.preventDefault();
         $('#modalServicio').modal('show');
-		$("#h3Info").text("Descripción");
+		$("#h3Info").text("Premium Oro");
 		tabla = "<table>"+
 		"<tr><td>$120.000</td></tr>"+
 		"<tr><td>500 GB</td></tr>"+
@@ -62,9 +62,9 @@ $(document).ready(function(){
 		"<tr><td>Compartir documentos</td></tr>"+
 		"<tr><td>Realizar pagos</td></tr>"+
 		"<tr><td>Notificaciones</td></tr>"+
-		"<tr><td>Sincronización con PC</td></tr>"+
-		"<tr><td>10 trámites con notarias</td></tr>"+
-		"<tr><td>Prioridad en trámites</td></tr>"+
+		"<tr><td>Sincronizaci\xf3n con PC</td></tr>"+
+		"<tr><td>10 tr\xe1mites con notarias</td></tr>"+
+		"<tr><td>Prioridad en tr\xe1mites</td></tr>"+
 		"</table>"
 		$("#divInfo").html(tabla);
     });
