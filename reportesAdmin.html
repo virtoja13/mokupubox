@@ -69,7 +69,7 @@
             </ul>			
 			
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> admin</span>
+                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> Admin</span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
@@ -94,13 +94,15 @@
 
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
-                        <li><a class="ajax-link" href="registro.html"><i class="glyphicon glyphicon-plus-sign"></i><span> Registrar Usuario</span></a>
-						</li>
-                        <li><a class="ajax-link" href="buzon.html"><i class="glyphicon glyphicon-edit"></i><span> Actualizar Usuario</span></a>
+                        <li><a class="ajax-link" href="indexAdmin.html"><i class="glyphicon glyphicon-home"></i><span> Inicio</span></a>
                         </li>
-                        <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-minus-sign"></i><span> Suspender Usuario</span></a>
-                        </li>
-						 <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-search"></i><span> Consultar Usuarios</span></a>
+
+						<li class="accordion">
+                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Usuarios Ubox</span></a>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="registro.html">Registro</a></li>
+                                <li><a href="consultaUsuarios.html">Consulta</a></li>
+                            </ul>
                         </li>
 						 <li><a class="ajax-link" href="reportesAdmin.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
                         </li>
