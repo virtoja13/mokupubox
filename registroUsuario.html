@@ -58,9 +58,9 @@ function enviar_formulario() {
 	var usuario = document.getElementById('usuariotxt').value;
 	
 	if (usuario=="Administrador") {
-        document.formLogin.action = 'indexAdmin.html';
+        document.location.href = 'indexAdmin.html';
     }else{
-		document.formLogin.action = 'index.html';
+		document.location.href = 'index.html';
 	}
 	
     return true;
