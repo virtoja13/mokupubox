@@ -106,6 +106,15 @@ function enviar_formulario() {
 				<br/>
 				<br/>	
 				 <a class="btn btn-success" href="registroUsuario.html">Registrarse en Ubox</a>		
+				<br/><br/>
+				<h6>*Si usted pertenece a otro operador y quiere solicitar traslado a Ubox haga clik   
+				
+				<a class="abrirTras" href="#">
+							<i class="glyphicon glyphicon-hand-right icon-white"></i>
+							 aquí
+				</a>
+				</h6>
+				
 			</td>
 			<td width="10%">
 			<div class="pull-right">
@@ -175,6 +184,24 @@ function enviar_formulario() {
             </div>
         </div>
     </div>
+	
+	<div class="modal fade" id="modalServicio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">�</button>
+				<h3 id="h3Info"></h3>
+			</div>
+			<div class="modal-body" id="divInfo">
+			</div>
+			<div class="modal-footer">
+				<input id="usuariotxt" type="text" placeholder="Ingrese aquí su Código de Confirmación" size="60px">
+				<a href="#" class="btn btn-default" data-dismiss="modal">Confirmar</a>
+			</div>
+		</div>
+	</div>
+</div>
+
 
     <footer class="row">
         <p class="col-md-9 col-sm-9 col-xs-12 copyright">&copy; <a href="http://usman.it" target="_blank">Muhammad
@@ -220,6 +247,8 @@ function enviar_formulario() {
 <script src="js/jquery.history.js"></script>
 <!-- application script for Charisma demo -->
 <script src="js/charisma.js"></script>
+
+<script src="js/login.js"></script>
 
 
 </body>

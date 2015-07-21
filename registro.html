@@ -93,18 +93,25 @@
 
                     </div>
                      <ul class="nav nav-pills nav-stacked main-menu">                         
-                        <li><a class="ajax-link" href="form.html"><i class="glyphicon glyphicon-plus-sign"></i><span> Registrar Usuario</span></a>
-						</li>
-                        <li><a class="ajax-link" href="buzon.html"><i class="glyphicon glyphicon-edit"></i><span> Actualizar Usuario</span></a>
+                        <li><a class="ajax-link" href="indexAdmin.html"><i class="glyphicon glyphicon-home"></i><span> Inicio</span></a>
                         </li>
-                        <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-minus-sign"></i><span> Suspender Usuario</span></a>
+
+						<li class="accordion">
+                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Usuarios Ubox</span></a>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="registro.html">Registro</a></li>
+                                <li><a href="consultaUsuarios.html">Consulta</a></li>
+                            </ul>
                         </li>
-						 <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-search"></i><span> Consultar Usuarios</span></a>
+						 <li><a class="ajax-link" href="reportesAdmin.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
                         </li>
-						 <li><a class="ajax-link" href="gallery.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
-                        </li>
-						 <li><a class="ajax-link" href="ui.html"><i class="glyphicon glyphicon-lock"></i><span> Mi cuenta</span></a>
-                        </li>                       
+						<li class="accordion">
+                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Mi cuenta</span></a>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="misDatosAdmin.html">Mis Datos</a></li>
+                                <li><a href="contrasenaAdmin.html">Cambiar Contraseña</a></li>
+                            </ul>
+                        </li>                          
                     </ul>                      
                 </div>
             </div>
@@ -126,10 +133,13 @@
             <div>
     <ul class="breadcrumb">
         <li>
-            <a href="#">Ubox</a>
-        </li>
+                <a href="#">Ubox</a>
+            </li>
+            <li>
+                <a href="#">Usuarios Ubox</a>
+            </li>
         <li>
-            <a href="#">Registro Usuario</a>
+            <a href="#">Registro</a>
         </li>
     </ul>
 </div>

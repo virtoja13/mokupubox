@@ -3,6 +3,8 @@ $(document).ready(function(){
         e.preventDefault();
         $('#modalCambioIdioma').modal('show');
     });
+	
+	$(".nav-stacked").show();
 });
 
 function liCambioContrasenia(){

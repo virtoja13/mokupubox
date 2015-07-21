@@ -56,20 +56,29 @@
     <!-- topbar starts -->
     <div class="navbar navbar-default" role="navigation">
 
-        <div class="navbar-inner">   
-            <img alt="Ubox" src="img/logo20.png" class="hidden-xs"/> 
+        <div class="navbar-inner">
+   
+            <img alt="Ubox" src="img/logo20.png" class="hidden-xs"/>
 
             <!-- user dropdown starts -->
-            <div class="btn-group pull-right">		
+            <div class="btn-group pull-right">
 			
-			<ul class="collapse navbar-collapse nav navbar-nav top-menu">               
-              	<form >
-           			<input placeholder="Buscar" class="search-query form-control col-md-10" name="query" type="text">
-                </form>                
-            </ul>			
+			
+			
+			<ul class="collapse navbar-collapse nav navbar-nav top-menu">
+                
+                
+                    <form >
+                        <input placeholder="Buscar" class="search-query form-control col-md-10" name="query"
+                               type="text">
+                    </form>
+                
+            </ul>
+			
+			
 			
                 <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> usuario</span>
+                    <i class="glyphicon glyphicon-user"></i><span class="hidden-sm hidden-xs"> Admin</span>
                     <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
@@ -78,7 +87,9 @@
                     <li><a href="login.html">Salir</a></li>
                 </ul>
             </div>
-            <!-- user dropdown ends -->         
+            <!-- user dropdown ends -->
+
+          
 
         </div>
     </div>
@@ -94,19 +105,27 @@
 
                     </div>
                     <ul class="nav nav-pills nav-stacked main-menu">
-                        <li><a class="ajax-link" href="index.html"><i class="glyphicon glyphicon-home"></i><span> Inicio</span></a>
+                       
+                       <li><a class="ajax-link" href="indexAdmin.html"><i class="glyphicon glyphicon-home"></i><span> Inicio</span></a>
                         </li>
-                        <li><a class="ajax-link" href="miCuenta.html"><i class="glyphicon glyphicon-plus"></i><span> Mi Cuenta</span></a>
+
+						<li class="accordion">
+                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Usuarios Ubox</span></a>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="registro.html">Registro</a></li>
+                                <li><a href="consultaUsuarios.html">Consulta</a></li>
+                            </ul>
                         </li>
-                        <li><a class="ajax-link" href="form.html"><i class="glyphicon glyphicon-th"></i><span> Mis Documentos</span></a></li>
-                        <li><a class="ajax-link" href="buzon.html"><i class="glyphicon glyphicon-calendar"></i><span> Buzón de Correo</span></a>
+						 <li><a class="ajax-link" href="reportesAdmin.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
                         </li>
-                        <li><a class="ajax-link" href="instituciones.html"><i class="glyphicon glyphicon-screenshot"></i><span> Remitentes</span></a>
-                        </li>
-						 <li><a class="ajax-link" href="servicio.html"><i class="glyphicon glyphicon-star"></i><span> Servicios</span></a>
-                        </li>
-						 <li><a class="ajax-link" href="reportes.html"><i class="glyphicon glyphicon-list-alt"></i><span> Reportes</span></a>
-                        </li>
+						<li class="accordion">
+                            <a href="#"><i class="glyphicon glyphicon-plus"></i><span> Mi cuenta</span></a>
+                            <ul class="nav nav-pills nav-stacked">
+                                <li><a href="misDatosAdmin.html">Mis Datos</a></li>
+                                <li><a href="contrasenaAdmin.html">Cambiar Contraseña</a></li>
+                            </ul>
+                        </li>          
+                        
                     </ul>
                     
                 </div>
@@ -132,123 +151,20 @@
             <a href="#">Ubox</a>
         </li>
         <li>
-            <a href="#">Reportes</a>
+            <a href="#">Mi Cuenta</a>
+        </li>
+		<li>
+            <a href="#">Mis Datos</a>
         </li>
     </ul>
 </div>
 
 
-
-
-
-<div class="row">	
-	<div class="box col-md-8">
-            <div class="box-inner">
-                <div class="box-header well" data-original-title="">
-                    <h2>Acciones de Usuario</h2>
-
-                    <div class="box-icon">
-                        <a href="#" class="btn btn-setting btn-round btn-default"><i
-                                class="glyphicon glyphicon-cog"></i></a>
-                        <a href="#" class="btn btn-minimize btn-round btn-default"><i
-                                class="glyphicon glyphicon-chevron-up"></i></a>
-                        <a href="#" class="btn btn-close btn-round btn-default"><i
-                                class="glyphicon glyphicon-remove"></i></a>
-                    </div>
-                </div>
-				<div align="right">
-				<table>
-					<tr>
-						<td align="right">
-							<input type="text" class="form-control" id="inputSuccess1" size="20px" placeholder="Buscar">
-						</td>
-						<td>
-							<a class="btn btn-default" href="#"><i class="glyphicon glyphicon-search"></i></a>
-						</td>
-					</tr>
-				</table>
-		
-	</div>
-	
-                <div class="box-content">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>Actividad</th>
-                            <th>Fecha</th>
-                            <th>Hora</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <tr>
-                            <td>Documento compartido [Registro Civil - Ministerio de Educación]</td>
-                            <td class="center">2015/02/26</td>
-                            <td class="center">21:56:01</td>
-                        </tr>
-                        <tr>
-                            <td>Documento compartido [Registro Civil - Ministerio de Educación]</td>
-                            <td class="center">2015/02/26</td>
-                            <td class="center">22:02:01</td>
-                        </tr>
-                        <tr>
-                            <td>Envío Solicitud Documentos EPS Sanitas</td>
-                            <td class="center">2015/02/24</td>
-                            <td class="center">06:53:15</td>
-                        </tr>
-                        <tr>
-                            <td>Firma Digital de Documento [Diploma Ingeniería]</td>
-                            <td class="center">2015/02/19</td>
-                            <td class="center">21:23:19</td>
-                        </tr>
-                        <tr>
-                            <td>Firma Digital de Documento [Cédula de ciudadanía]</td>
-                            <td class="center">2015/02/19</td>
-                            <td class="center">14:35:20</td>
-                        </tr>
-						<tr>
-                            <td>Documento compartido [Antecedentes Judiciales - Abogados Ltda]</td>
-                            <td class="center">2015/02/17</td>
-                            <td class="center">15:43:13</td>
-                        </tr>
-						<tr>
-                            <td>Actualización de Datos Personales</td>
-                            <td class="center">2015/02/16</td>
-                            <td class="center">13:38:46</td>
-                        </tr>
-						<tr>
-                            <td>Envío Solicitud Documentos Universidad Distrital</td>
-                            <td class="center">2015/02/15</td>
-                            <td class="center">07:26:51</td>
-                        </tr>
-						<tr>
-                            <td>Firma Digital de Documento [Diploma Diplomado]</td>
-                            <td class="center">2015/02/14</td>
-                            <td class="center">10:45:21</td>
-                        </tr>
-                        </tbody>
-                    </table>
-                    <ul class="pagination pagination-centered">
-                        <li><a href="#">Ant.</a></li>
-                        <li class="active">
-                            <a href="#">1</a>
-                        </li>
-                        <li><a href="#">2</a></li>
-                        <li><a href="#">3</a></li>
-                        <li><a href="#">4</a></li>
-                        <li><a href="#">Sigu.</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <!--/span-->
-
-
-
-
-    <div class="box col-md-4">
+<div class="row" id="divCofDatos">
+    <div class="box col-md-12">
         <div class="box-inner">
-            <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-list-alt"></i> Estadísticas</h2>
+            <div class="box-header well">
+                <h2><i class="glyphicon glyphicon-info-sign"></i> Mis datos</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-setting btn-round btn-default"><i
@@ -259,23 +175,72 @@
                             class="glyphicon glyphicon-remove"></i></a>
                 </div>
             </div>
-            <div class="box-content center">
-                <img alt="Estadísticas" src="img/reporte.png" /> 
-            </div>
+            <div class="ch-container">
+				<br>
+                <div class="row">
+					<table width="100%">
+						<tr>
+							<td width="20%">Departamento residencia:</td>
+							<td width="80%">
+								<select style="width:200px">
+									<option>Antioquia</option>
+									<option selected="selected">Bogot&aacute;, D.F.</option>
+									<option>Bolivar</option>
+									<option>Boyac&aacute;</option>
+									<option>Cauca</option>
+									<option>...</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td width="20%">Municipio residencia:</td>
+							<td width="80%">
+								<select style="width:200px">
+									<option selected="selected">Bogot&aacute;</option>
+									<option>...</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td width="20%">Direcci&oacute;n de residencia:</td>
+							<td width="80%"><input type="text" class="form-control" value="Calle 123 # 25-50"></td>
+						</tr>
+						<tr>
+							<td width="20%">Número de Tel&eacute;fono:</td>
+							<td width="80%"><input type="text" class="form-control" value="555-887744"></td>
+						</tr>
+						<tr>
+							<td width="20%">Correo electr&oacute;nico:</td>
+							<td width="80%"><input type="email" class="form-control" value="xxxx@email.com"></td>
+						</tr>
+						<tr>
+							<td width="20%">Estado civil:</td>
+							<td width="80%">
+								<select style="width:200px">
+									<option selected="selected">Soltero</option>
+									<option>Casado</option>
+									<option>Divorciado</option>
+									<option>Viudo</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2">
+								<p>
+									<button type="submit" class="btn btn-primary pull-right">Guardar</button>
+								</p>
+							</td>
+						</tr>
+					</table>
+					<br>
+															
+                </div>
+				
+			</div>
         </div>
     </div>
+</div>
 
-   
-</div><!--/row-->
-
-<!-- chart libraries start -->
-<script src="bower_components/flot/excanvas.min.js"></script>
-<script src="bower_components/flot/jquery.flot.js"></script>
-<script src="bower_components/flot/jquery.flot.pie.js"></script>
-<script src="bower_components/flot/jquery.flot.stack.js"></script>
-<script src="bower_components/flot/jquery.flot.resize.js"></script>
-<!-- chart libraries end -->
-<script src="js/init-chart.js"></script>
 
     <!-- content ends -->
     </div><!--/#content.col-md-0-->
@@ -294,7 +259,7 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             </script>
         </div>
-      
+   
 
     </div>
     <!-- Ad ends -->
@@ -307,15 +272,38 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <button type="button" class="close" data-dismiss="modal">�</button>
                     <h3>Settings</h3>
                 </div>
                 <div class="modal-body">
                     <p>Here settings can be configured...</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
-                    <a href="#" class="btn btn-primary" data-dismiss="modal">Save changes</a>
+                    <a href="#" class="btn btn-default" data-dismiss="modal">Cerrar</a>
+                    <a href="#" class="btn btn-primary" data-dismiss="modal">Guardar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="modal fade" id="modalCambioIdioma" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">�</button>
+                    <h3>Seleccione idioma</h3>
+                </div>
+                <div class="modal-body">
+                    <select>
+						<option>Espa&ntilde;ol</option>
+						<option>Ingles</option>
+						<option>Frances</option>
+						<option>Aleman</option>
+					</select>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="btn btn-default" data-dismiss="modal">Cerrar</a>
+                    <a href="#" class="btn btn-primary" data-dismiss="modal">Guardar Cambios</a>
                 </div>
             </div>
         </div>
@@ -365,7 +353,8 @@
 <script src="js/jquery.history.js"></script>
 <!-- application script for Charisma demo -->
 <script src="js/charisma.js"></script>
-
+<!-- application script for Charisma demo -->
+<script src="js/miCuenta.js"></script>
 
 </body>
 </html>
