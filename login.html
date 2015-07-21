@@ -58,11 +58,10 @@ function enviar_formulario() {
 	var usuario = document.getElementById('usuariotxt').value;
 	
 	if (usuario=="Administrador") {
-        document.formLogin.action = 'indexAdmin.html';
+        document.location.href = 'indexAdmin.html';
     }else{
-		document.formLogin.action = 'index.html';
+		 document.location.href = 'index.html';
 	}
-	
     return true;
 }
 
@@ -153,7 +152,7 @@ function enviar_formulario() {
 						</div>
 						
 						<p class="center col-md-5">
-							<button type="submit" class="btn btn-primary" onClick="return enviar_formulario()">Entrar</button>
+							<button type="button" class="btn btn-primary" onclick="enviar_formulario()">Entrar</button>
 						</p>
 					</fieldset>
 				</form>
