@@ -99,7 +99,7 @@ function enviar_formulario() {
 				<div class="pull-left box col-md-9">
         <div class="box-inner">
             <div class="box-header well" data-original-title="">
-                <h2><i class="glyphicon glyphicon-edit"></i> Registro de Datos</h2>
+                <h2><i class="glyphicon glyphicon-edit"></i> Preguntas de Seguridad</h2>
 
                 <div class="box-icon">
                     <a href="#" class="btn btn-setting btn-round btn-default"><i
@@ -115,308 +115,202 @@ function enviar_formulario() {
 				<table width="100%">
 					
 					<tr >
-						<td width="">Tipo Documento:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Cédula Ciudadanía</option>
-									<option>Cédula Extranjería</option>
-									<option>Tarjeta de Identidad</option>
-									<option>Registro Civil</option>
-									<option>Pasaporte</option>
-									<option>Carné Diplomático</option>
-								</select>
-							</div>
-						</td>
-						<td>Número Documento:</td>
-						<td>
-							 <input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>
-						
+						<td width="">Por favor responda las siguientes preguntas para continuar con su proceso de registro online:</td>					
 					</tr>
 					<tr >
-						<td>Departamento de Expedición del Documento:
-						</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Amazonas</option>
-									<option>Bolívar</option>
-									<option>Casanare</option>
-									<option>Cundinamarca</option>
-									<option>Magdalena</option>
-									<option>Putumayo</option>
-								</select>
-							</div>
-						</td>
-						</td>
-						<td>Municipio de Expedición del Documento:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Abejorral</option>
-									<option>Bello</option>
-									<option>Caceres</option>
-									<option>Envigado</option>
-									<option>La Estrella</option>
-									<option>Sabaneta</option>
-								</select>
-							</div>
-						</td>						
+						<td>1. Con cual de las siguientes direcciones ha tenido usted relación:
+						</td>									
 					</tr>
 					
-					<tr style="border-bottom:groove">
-						<td>Fecha de Expedición del Documento:</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px" placeholder="yyyy/MM/dd">
-						</td>	
-						<td></td>
-						<td>			
-						</td>						
+					<tr >
+						<td style="padding-left:10px">
+						<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									Calle 91 N. 98 - 77
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Calle 91 N. 97 - 77
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Calle 91 N. 98 - 78
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Calle 91 N. 77 - 98
+								</label>
+							</div>
+						</td>										
+					</tr>
+					<tr >
+						<td>2. En cual de las siguientes entidades tiene usted un crédito de libranza:
+						</td>									
 					</tr>
 					
-				</table>
-			
-				<table>
-					<tr>
-						<td>Primer Nombre:</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>
-						<td>Segundo Nombre:</td>
-						<td>	
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">		
-						</td>			
-					</tr>	
-					<tr>
-						<td>Primer Apellido:</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>
-						<td>Segundo Apellido:</td>
-						<td>	
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">		
-						</td>
-						
-					</tr>					
-				</table>
-				
-				<table width="100%">
-					<tr style="border-top:groove">
-						<td>Genero:</td>
-						<td>
-							<div class="radio">
+						<tr >
+						<td style="padding-left:10px">
+						<div class="radio">
 								<label>
+								&nbsp;
 									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-									Femenino
+									Bancolombia
 								</label>
 							</div>
 							<div class="radio">
 								<label>
+								&nbsp;
 									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-									Masculino
-								</label>
-							</div>
-						</td>
-						<td>Fecha de Nacimiento:</td>
-						<td>	
-							<input type="text" class="form-control" id="inputSuccess1" size="20px" placeholder="yyyy/MM/dd">		
-						</td>		
-						<td>Departamento de Nacimiento:
-						</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Amazonas</option>
-									<option>Bolívar</option>
-									<option>Casanare</option>
-									<option>Cundinamarca</option>
-									<option>Magdalena</option>
-									<option>Putumayo</option>
-								</select>
-							</div>
-						</td>	
-					</tr>	
-					<tr>
-						<td>Municipio de Nacimiento:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Abejorral</option>
-									<option>Bello</option>
-									<option>Caceres</option>
-									<option>Envigado</option>
-									<option>La Estrella</option>
-									<option>Sabaneta</option>
-								</select>
-							</div>
-						</td>		
-						<td>Nacionalidad:</td>
-						<td>	
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Argentino</option>
-									<option>Chileno</option>
-									<option>Colombiano</option>
-									<option>Uruguayo</option>
-									<option>Ecuatoriano</option>
-								</select>
-							</div>
-						</td>
-						
-					</tr>					
-				</table>
-			
-			
-				<table width="100%">
-					<tr style="border-top:groove">
-						<td>Departamento Residencia:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Amazonas</option>
-									<option>Bolívar</option>
-									<option>Casanare</option>
-									<option>Cundinamarca</option>
-									<option>Magdalena</option>
-									<option>Putumayo</option>
-								</select>
-							</div>
-						</td>
-						<td>Municipio Residencia:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Abejorral</option>
-									<option>Bello</option>
-									<option>Caceres</option>
-									<option>Envigado</option>
-									<option>La Estrella</option>
-									<option>Sabaneta</option>
-								</select>
-							</div>
-						</td>			
-						<td>Dirección Residencia:
-						</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>	
-					</tr>	
-					<tr>
-						<td>Departamento Correspondencia:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Amazonas</option>
-									<option>Bolívar</option>
-									<option>Casanare</option>
-									<option>Cundinamarca</option>
-									<option>Magdalena</option>
-									<option>Putumayo</option>
-								</select>
-							</div>
-						</td>
-						<td>Municipio Correspondencia:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Abejorral</option>
-									<option>Bello</option>
-									<option>Caceres</option>
-									<option>Envigado</option>
-									<option>La Estrella</option>
-									<option>Sabaneta</option>
-								</select>
-							</div>
-						</td>			
-						<td>Dirección Correspondencia:
-						</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>	
-					</tr>						
-				</table>
-				
-				
-				
-				
-				
-				
-				
-				<table width="100%">
-					<tr style="border-top:groove">
-						<td>Teléfono:</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>
-						<td>Correo Electrónico:</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>			
-						<td>Estado Civil:
-						</td>
-						<td>
-							<div class="radio">
-								<label>
-									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-									Soltero
+									Banco Agrario
 								</label>
 							</div>
 							<div class="radio">
 								<label>
+								&nbsp;
 									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-									Casado
+									Davivienda
 								</label>
 							</div>
 							<div class="radio">
 								<label>
+								&nbsp;
 									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-									Viudo
+									Finamerica
 								</label>
 							</div>
-						</td>	
-					</tr>	
-					<tr style="border-bottom:groove">
-						<td>Departamento Sitio Laboral:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Amazonas</option>
-									<option>Bolívar</option>
-									<option>Casanare</option>
-									<option>Cundinamarca</option>
-									<option>Magdalena</option>
-									<option>Putumayo</option>
-								</select>
-							</div>
-						</td>
-						<td>Municipio Sitio Laboral:</td>
-						<td>
-							<div class="controls">
-								<select id="selectError" data-rel="chosen">
-									<option>Abejorral</option>
-									<option>Bello</option>
-									<option>Caceres</option>
-									<option>Envigado</option>
-									<option>La Estrella</option>
-									<option>Sabaneta</option>
-								</select>
-							</div>
-						</td>			
-						<td>Dirección Sitio Laboral:
-						</td>
-						<td>
-							<input type="text" class="form-control" id="inputSuccess1" size="20px">
-						</td>	
-					</tr>	
-					<tr>
-						<td colspan="6"><br/><a class="btn btn-success pull-right" href="registroSeguridad.html">Registrar Usuario</a></td>
+						</td>										
 					</tr>
-										
-				</table>
-			
-			
-			
+					
+					<tr >
+						<td>3. Cual es su deuda actual con el Banco Caja Social por crédito de vivienda:
+						</td>									
+					</tr>
+					
+						<tr >
+						<td style="padding-left:10px">
+						<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									$10.000.000 - $20.000.000
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									$21.000.000 - $30.000.000
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									$31.000.000 - $40.000.000
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									$41.000.000 - $50.000.000
+								</label>
+							</div>
+						</td>										
+					</tr>
+					
+					
+					<tr >
+						<td>4. Hace cuanto tiene usted una cuenta Corriente en el Banco de Occidente:
+						</td>									
+					</tr>
+					
+						<tr >
+						<td style="padding-left:10px">
+						<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									Un año
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Dos años
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Tres años
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Más de cinco años
+								</label>
+							</div>
+						</td>										
+					</tr>
+					
+					<tr >
+						<td>5. En que ciudad fue expedido su documento de identificación:
+						</td>									
+					</tr>
+					
+						<tr >
+						<td style="padding-left:10px">
+						<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+									Cali
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Medellín
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Bogotá
+								</label>
+							</div>
+							<div class="radio">
+								<label>
+								&nbsp;
+									<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+									Leticia
+								</label>
+							</div>
+						</td>										
+					</tr>
+					<tr>
+						<td colspan="6"><br/><a class="btn btn-success pull-right" href="registroResultado.html">Validar</a></td>
+					</tr>
+					
+				</table>	
 			
 				
             </div>
