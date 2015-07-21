@@ -3,6 +3,8 @@ $(document).ready(function(){
 	cargaInicial();
 	cargaInicial2();
 	cargaInicial3();
+	cargaInicial4();
+	cargaInicial5();
 	//evento que se dispara al hacer clic en el boton para agregar una nueva fila
 	$(document).on('click','.clsAgregarFila',function(){
 		//almacenamos en una variable todo el contenido de la nueva fila que deseamos
@@ -38,9 +40,9 @@ $(document).ready(function(){
 			'            Borrar                                                                           '+
 			'        </a>                                                                                 '+
 			
-			'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">                                  '+
-			'            <i class="glyphicon glyphicon-share icon-white"></i>                          '+
-			'            Mover                                                                           '+
+			'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
 			'        </a>                                                                                 '+
 			 
 			'</td>'
@@ -371,6 +373,12 @@ $(document).ready(function(){
     '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
     '            Borrar                                                                           '+
     '        </a>                                                                                 '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
     '    </td>                                                                                    '+
     '</tr>                                                                                        '+
     '                                                                                             '+
@@ -403,6 +411,12 @@ $(document).ready(function(){
     '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
     '            Borrar                                                                           '+
     '        </a>                                                                                 '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
     '    </td>                                                                                    '+
     '</tr>                                                                                        '+
     '                                                                                             '+
@@ -434,6 +448,12 @@ $(document).ready(function(){
     '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
     '            Borrar                                                                           '+
     '        </a>                                                                                 '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
     '    </td>                                                                                    '+
     '</tr>                                                                                        '+
     '                                                                                             '+
@@ -466,6 +486,12 @@ $(document).ready(function(){
     '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
     '            Borrar                                                                           '+
     '        </a>                                                                                '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
     '    </td>                                                                                   '+
     '</tr>                                                                                       '+
     '</tbody>'+
@@ -643,6 +669,412 @@ $(document).ready(function(){
         }
 		});
 	}
+	
+	
+	
+	
+	function cargaInicial4() {
+		
+		$('#cargarTablaTotal').html(
+		'<table id = "tablatotal" class="table table-striped table-bordered bootstrap-datatable datatable responsive">'+
+    '<thead>'+
+    '<tr>'+
+        '<th>Archivo</th>'+
+        '<th>Creaci\u00f3n</th>'+
+        '<th>Modificaci\u00f3n</th>'+
+        '<th>Estado</th>'+
+        '<th>Acci\u00f3n</th>'+
+    '</tr>'+
+    '</thead>'+
+    
+	//aca el tbody
+	
+	'<tbody>                                                                                      '+
+    '<tr>                                                                                         '+
+     '   <td>                                                                                     '+
+      '      <i class="glyphicon glyphicon-file"></i>                                             '+
+       '     BPM Process Designer.pdf</td>                                                        '+
+        '<td class="center">2013/06/05 22:08</td>                                                 '+
+        '<td class="center"> </td>                                                                '+
+        '<td class="center">                                                                      '+
+        '    <span class="label-success label label-default">Activo</span>                        '+
+        '</td>                                                                                    '+
+        '<td class="center">                                                                      '+
+        '    <a class="btn btn-success" target="_blank" href="docSample\\processDesigner.JPG">     '+
+        '        <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+        '        Ver                                                                              '+
+        '    </a>                                                                                 '+
+		
+		'<a onclick= abrirCompartir(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-user icon-white"></i>'+
+        '        Compartir'+
+        '    </a>'+
+        '    <a onclick= abrirFirmar(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+        '        Firmar'+
+        '    </a>'+
+	
+    '        <a class="btn btn-danger clsEliminarFila" href="#">                                                  '+
+    '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
+    '            Borrar                                                                           '+
+    '        </a>                                                                                 '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
+    '    </td>                                                                                    '+
+    '</tr>                                                                                        '+
+    '                                                                                             '+
+    '                                                                                             '+
+    '<tr>                                                                                         '+
+    '    <td>                                                                                     '+
+    '        <i class="glyphicon glyphicon-file"></i>                                             '+
+    '        Foto de la abuela.jpg</td>                                                           '+
+    '    <td class="center">2014/12/17 18:13</td>                                                 '+
+    '    <td class="center">2015/08/25 07:06</td>                                                 '+
+    '    <td class="center">                                                                      '+
+    '        <span class="label-warning label label-default">Pendiente</span>                     '+
+    '    </td>                                                                                    '+
+    '    <td class="center">                                                                      '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\abuela.jpg">              '+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+    '            Ver                                                                              '+
+    '        </a>                                                                                 '+
+    
+	'<a onclick= abrirCompartir(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-user icon-white"></i>'+
+        '        Compartir'+
+        '    </a>'+
+        '    <a onclick= abrirFirmar(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+        '        Firmar'+
+        '    </a>'+
+	
+    '        <a class="btn btn-danger clsEliminarFila" href="#">                                                  '+
+    '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
+    '            Borrar                                                                           '+
+    '        </a>                                                                                 '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
+    '    </td>                                                                                    '+
+    '</tr>                                                                                        '+
+    '                                                                                             '+
+    '<tr>                                                                                         '+
+    '    <td>                                                                                     '+
+    '        <i class="glyphicon glyphicon-file"></i>                                             '+
+    '        SAD ARQSW UniAndes.doc</td>                                                          '+
+    '    <td class="center">2013/01/05 12:01</td>                                                 '+
+    '    <td class="center">2014/02/01 09:01</td>                                                 '+
+    '    <td class="center">                                                                      '+
+    '        <span class="label-default label">Inactivo</span>                                    '+
+    '    </td>                                                                                    '+
+    '    <td class="center">                                                                      '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\SAD_EXP2.doc">            '+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+    '            Ver                                                                              '+
+    '        </a>                                                                                 '+
+   
+   '<a onclick= abrirCompartir(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-user icon-white"></i>'+
+        '        Compartir'+
+        '    </a>'+
+        '    <a onclick= abrirFirmar(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+        '        Firmar'+
+        '    </a>'+
+   
+    '        <a class="btn btn-danger clsEliminarFila" href="#">                                                  '+
+    '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
+    '            Borrar                                                                           '+
+    '        </a>                                                                                 '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
+    '    </td>                                                                                    '+
+    '</tr>                                                                                        '+
+    '                                                                                             '+
+    '<tr>                                                                                         '+
+    '    <td>                                                                                     '+
+    '        <i class="glyphicon glyphicon-file"></i>                                             '+
+    '        Proyecto 1 MinTIC.pdf</td>                                                           '+
+    '    <td class="center">1986/01/05 12:01</td>                                                 '+
+    '    <td class="center"></td>                                                                 '+
+    '    <td class="center">                                                                      '+
+    '        <span class="label-default label label-danger">Prohibido</span>                      '+
+    '    </td>                                                                                    '+
+    '    <td class="center">                                                                      '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\ProyectoECOS.pdf">        '+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+    '            Ver                                                                              '+
+    '        </a>                                                                                 '+
+    
+	'<a onclick= abrirCompartir(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-user icon-white"></i>'+
+        '        Compartir'+
+        '    </a>'+
+        '    <a onclick= abrirFirmar(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+        '        Firmar'+
+        '    </a>'+
+	
+    '        </a>                                                                                 '+
+    '        <a class="btn btn-danger clsEliminarFila" href="#">                                                  '+
+    '            <i class="glyphicon glyphicon-trash icon-white"></i>                             '+
+    '            Borrar                                                                           '+
+    '        </a>                                                                                '+
+	
+	'        <a onclick= abrirMover(event) class="btn btn-info clsRecuperarTotal" href="#">       '+
+			'            <i class="glyphicon glyphicon-share icon-white"></i>                             '+
+			'            Mover                                                                            '+
+			'        </a>                                                                                 '+
+	
+    '    </td>                                                                                   '+
+    '</tr>                                                                                       '+
+	
+	'<tr>'+
+     '   <td>'+
+	 '      <i class="glyphicon glyphicon-file"></i>                                             '+
+	 ' Registro Civil</td>'+
+      '  <td class="center">1986/01/05 12:01</td>'+
+       ' <td class="center"> </td>'+
+        '<td class="center">'+
+         '   <span class="label-success label label-default">Activo</span>'+
+        '</td>'+
+        '<td class="center">'+
+        '    <a class="btn btn-success" target="_blank" href="docSample\\registroCivil.JPG">'+
+        '        <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
+        '        Ver'+
+        '    </a>'+
+        '    <a onclick= abrirCompartir(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-user icon-white"></i>'+
+        '        Compartir'+
+        '    </a>'+
+        '    <a onclick= abrirFirmar(event) class="btn btn-info">'+
+        '        <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+        '        Firmar'+
+        '    </a>'+
+            
+        '</td>'+
+    '</tr>'+
+
+    '<tr>'+
+    '    <td>'+
+	'      <i class="glyphicon glyphicon-file"></i>                                             '+
+	' Declaraci\u00f3n Renta</td>'+
+    '    <td class="center">2014/12/17 18:13</td>'+
+    '    <td class="center">2015/08/25 07:06</td>'+
+    '    <td class="center">'+
+    '        <span class="label-warning label label-default">Pendiente</span>'+
+    '    </td>'+
+    '    <td class="center">'+
+    '        <a class="btn btn-success" target="_blank" href="#">'+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
+    '            Ver'+
+    '        </a>'+
+    '        <a onclick= abrirCompartir(event) class="btn btn-info abrirCompartir">'+
+    '            <i class="glyphicon glyphicon-user icon-white"></i>'+
+    '            Compartir'+
+    '        </a>'+
+    '        <a  onclick= abrirFirmar(event) class="btn btn-info" >'+
+    '            <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+    '            Firmar'+
+    '        </a>'+
+            
+    '    </td>'+
+    '</tr>'+
+    
+    '<tr>'+
+    '    <td>'+
+	'      <i class="glyphicon glyphicon-file"></i>                                             '+
+	' RUT</td>'+
+    '    <td class="center">2013/01/05 12:01</td>'+
+    '    <td class="center">2014/02/01 09:01</td>'+
+    '    <td class="center">'+
+    '        <span class="label-default label">Inactivo</span>'+
+    '    </td>'+
+    '    <td class="center">'+
+    '        <a class="btn btn-success" target="_blank" href="#">'+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
+    '            Ver'+
+    '        </a>'+
+    '        <a onclick= abrirCompartir(event) class="btn btn-info abrirCompartir">'+
+    '            <i class="glyphicon glyphicon-user icon-white"></i>'+
+    '            Compartir'+
+    '        </a>'+
+    '        <a onclick= abrirFirmar(event) class="btn btn-info" >'+
+    '            <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+    '            Firmar'+
+    '        </a>'+
+            
+    '    </td>'+
+    '</tr>'+
+    
+    '<tr>'+
+    '    <td>'+
+	'      <i class="glyphicon glyphicon-file"></i>                                             '+
+	' Pasado Judicial</td>'+
+    '    <td class="center">1986/01/05 12:01</td>'+
+    '    <td class="center"></td>'+
+    '    <td class="center">'+
+    '        <span class="label-default label label-danger">Prohibido</span>'+
+    '    </td>'+
+    '    <td class="center">'+
+    '        <a class="btn btn-success" target="_blank" href="http://antecedentes.policia.gov.co:7003/WebJudicial/formAntecedentes.xhtml">'+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
+    '            Ver'+
+    '        </a>'+
+    '        <a onclick= abrirCompartir(event) class="btn btn-info abrirCompartir">'+
+    '            <i class="glyphicon glyphicon-user icon-white"></i>'+
+    '            Compartir'+
+    '        </a>'+
+    '        <a onclick= abrirFirmar(event) class="btn btn-info abrirFirmar">'+
+    '            <i class="glyphicon glyphicon-barcode icon-white"></i>'+
+    '            Firmar'+
+    '        </a>'+
+            
+     '   </td>'+
+    '</tr>'+
+	
+	
+    '</tbody>'+
+	
+	
+	//finaliza tbody
+	
+    '</table>'
+    );
+		
+		$('#tablatotal').dataTable({
+        "sDom": "<'row'<'col-md-6'l><'col-md-6'f>r>t<'row'<'col-md-12'i><'col-md-12 center-block'p>>",
+        "sPaginationType": "bootstrap",
+        "oLanguage": {
+            "sLengthMenu": "_MENU_ records per page"
+        }
+		});
+	}
+	
+	
+	
+	
+	
+	function cargaInicial5() {
+		
+		$('#cargarTablaRecibos').html(
+		'<table id = "tablarecibos" class="table table-striped table-bordered bootstrap-datatable datatable responsive">'+
+    '<thead>'+
+    '<tr>'+
+        '<th>Archivo</th>'+
+        '<th>Creaci\u00f3n</th>'+
+        '<th>Modificaci\u00f3n</th>'+
+        '<th>Estado</th>'+
+        '<th>Acci\u00f3n</th>'+
+    '</tr>'+
+    '</thead>'+
+    
+	//aca el tbody
+	
+	'<tbody>                                                                                      '+
+    
+	
+	
+	'<tr>                                                                                         '+
+    '    <td>                                                                                     '+
+    '        <i class="glyphicon glyphicon-file"></i>                                             '+
+    '        Codensa.pdf</td>                     		                                          '+
+    '    <td class="center">2015/07/15 18:13</td>                                                 '+
+    '    <td class="center"> </td>				                                                  '+
+    '    <td class="center">                                                                      '+
+    '        <span class="label-warning label label-default">Pendiente</span>                     '+
+    '    </td>                                                                                    '+
+    '    <td class="center">                                                                      '+
+	'        <a class="btn btn-info" target="_blank" href="docSample\\Mi_Factura.pdf">            '+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+    '            Ver                                                                              '+
+    '        </a>                                                                                 '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\\pse.jpg">				          '+
+    '            <i class=" glyphicon glyphicon-flag icon-white"></i>                             '+
+    '            Pagar                                                                            '+
+    '        </a>                                                                                 '+
+    '    </td>                                                                                    '+
+    '</tr>                                                                                        '+
+	
+    '<tr>                                                                                         '+
+    '    <td>                                                                                     '+
+    '        <i class="glyphicon glyphicon-file"></i>                                             '+
+    '        EAAB.pdf</td>                     		                                          '+
+    '    <td class="center">2015/07/12 18:13</td>                                                 '+
+    '    <td class="center"> </td>				                                                  '+
+    '    <td class="center">                                                                      '+
+    '        <span class="label-warning label label-default">Pendiente</span>                     '+
+    '    </td>                                                                                    '+
+    '    <td class="center">                                                                      '+
+	'        <a class="btn btn-info" target="_blank" href="docSample\\Mi_Factura.pdf">            '+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+    '            Ver                                                                              '+
+    '        </a>                                                                                 '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\\pse.jpg">				          '+
+    '            <i class=" glyphicon glyphicon-flag icon-white"></i>                             '+
+    '            Pagar                                                                            '+
+    '        </a>                                                                                 '+
+    '    </td>                                                                                    '+
+    '</tr>                                                                                        '+
+	
+	'<tr>                                                                                         '+
+    '    <td>                                                                                     '+
+    '        <i class="glyphicon glyphicon-file"></i>                                             '+
+    '        Triple Play Claro.pdf</td>                     		                              '+
+    '    <td class="center">2015/07/05 18:13</td>                                                 '+
+    '    <td class="center"> </td>				                                                  '+
+    '    <td class="center">                                                                      '+
+    '        <span class="label-warning label label-default">Pendiente</span>                     '+
+    '    </td>                                                                                    '+
+    '    <td class="center">                                                                      '+
+	'        <a class="btn btn-info" target="_blank" href="docSample\\Mi_Factura.pdf">            '+
+    '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
+    '            Ver                                                                              '+
+    '        </a>                                                                                 '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\\pse.jpg">				          '+
+    '            <i class=" glyphicon glyphicon-flag icon-white"></i>                             '+
+    '            Pagar                                                                            '+
+    '        </a>                                                                                 '+
+    '    </td>                                                                                    '+
+    '</tr>                                                                                        '+
+	
+	
+    '</tbody>'+
+	
+	
+	//finaliza tbody
+	
+    '</table>'
+    );
+		
+		$('#tablarecibos').dataTable({
+        "sDom": "<'row'<'col-md-6'l><'col-md-6'f>r>t<'row'<'col-md-12'i><'col-md-12 center-block'p>>",
+        "sPaginationType": "bootstrap",
+        "oLanguage": {
+            "sLengthMenu": "_MENU_ records per page"
+        }
+		});
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
     
     

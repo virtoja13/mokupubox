@@ -73,7 +73,7 @@ function abrirMover(e) {
         '</td></tr>'+
         
         '<tr><td>'+
-        '        <a onclick="setColor('+'button'+','+ '#101010'+')" class="button" href="#">                                                  '+
+        '        <a class="button" href="#">                                                  '+
         '            <i class="glyphicon glyphicon-folder-open icon-white"></i>               '+
         '            Carpeta 6                                                                '+
         '        </a>                                                                         '+
