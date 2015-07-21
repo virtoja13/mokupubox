@@ -83,7 +83,7 @@ $(document).ready(function(){
 			'<span class="label-success label label-default">Activo</span>'+
 			'</td>'+
 			'<td class="center">'+
-			'<a class="btn btn-success" target="_blank" href="docSample\\registroCivil.JPG">'+
+			'<a class="btn btn-success" target="_blank" href="#">'+
 			'<i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
 			' Ver'+
 			'</a>'+
@@ -393,7 +393,7 @@ $(document).ready(function(){
     '        <span class="label-warning label label-default">Pendiente</span>                     '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="docSample\abuela.jpg">              '+
+    '        <a class="btn btn-success" target="_blank" href="#">              '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -430,7 +430,7 @@ $(document).ready(function(){
     '        <span class="label-default label">Inactivo</span>                                    '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="docSample\SAD_EXP2.doc">            '+
+    '        <a class="btn btn-success" target="_blank" href="#">            '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -467,7 +467,7 @@ $(document).ready(function(){
     '        <span class="label-default label label-danger">Prohibido</span>                      '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="docSample\ProyectoECOS.pdf">        '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\\ProyectoECOS.pdf">        '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -738,7 +738,7 @@ $(document).ready(function(){
     '        <span class="label-warning label label-default">Pendiente</span>                     '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="docSample\abuela.jpg">              '+
+    '        <a class="btn btn-success" target="_blank" href="#">              '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -775,7 +775,7 @@ $(document).ready(function(){
     '        <span class="label-default label">Inactivo</span>                                    '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="docSample\SAD_EXP2.doc">            '+
+    '        <a class="btn btn-success" target="_blank" href="#">            '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -812,7 +812,7 @@ $(document).ready(function(){
     '        <span class="label-default label label-danger">Prohibido</span>                      '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="docSample\ProyectoECOS.pdf">        '+
+    '        <a class="btn btn-success" target="_blank" href="docSample\\ProyectoECOS.pdf">        '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
