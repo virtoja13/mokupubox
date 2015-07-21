@@ -211,7 +211,7 @@ $(document).ready(function(){
     '<tr>'+
      '   <td>'+
 	 '      <i class="glyphicon glyphicon-file"></i>                                             '+
-	 ' Registro Civil</td>'+
+	 ' Registro Civil.jpg</td>'+
       '  <td class="center">1986/01/05 12:01</td>'+
        ' <td class="center"> </td>'+
         '<td class="center">'+
@@ -237,14 +237,14 @@ $(document).ready(function(){
     '<tr>'+
     '    <td>'+
 	'      <i class="glyphicon glyphicon-file"></i>                                             '+
-	' Declaraci\u00f3n Renta</td>'+
+	' Declaraci\u00f3n Renta.pdf</td>'+
     '    <td class="center">2014/12/17 18:13</td>'+
     '    <td class="center">2015/08/25 07:06</td>'+
     '    <td class="center">'+
     '        <span class="label-warning label label-default">Pendiente</span>'+
     '    </td>'+
     '    <td class="center">'+
-    '        <a class="btn btn-success" target="_blank" href="#">'+
+    '        <a class="btn btn-success" href="#">'+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
     '            Ver'+
     '        </a>'+
@@ -263,14 +263,14 @@ $(document).ready(function(){
     '<tr>'+
     '    <td>'+
 	'      <i class="glyphicon glyphicon-file"></i>                                             '+
-	' RUT</td>'+
+	' RUT.pdf</td>'+
     '    <td class="center">2013/01/05 12:01</td>'+
     '    <td class="center">2014/02/01 09:01</td>'+
     '    <td class="center">'+
     '        <span class="label-default label">Inactivo</span>'+
     '    </td>'+
     '    <td class="center">'+
-    '        <a class="btn btn-success" target="_blank" href="#">'+
+    '        <a class="btn btn-success" href="#">'+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
     '            Ver'+
     '        </a>'+
@@ -393,7 +393,7 @@ $(document).ready(function(){
     '        <span class="label-warning label label-default">Pendiente</span>                     '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="#">              '+
+    '        <a class="btn btn-success" href="#">              '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -430,7 +430,7 @@ $(document).ready(function(){
     '        <span class="label-default label">Inactivo</span>                                    '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="#">            '+
+    '        <a class="btn btn-success" href="#">            '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -738,7 +738,7 @@ $(document).ready(function(){
     '        <span class="label-warning label label-default">Pendiente</span>                     '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="#">              '+
+    '        <a class="btn btn-success" href="#">              '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -775,7 +775,7 @@ $(document).ready(function(){
     '        <span class="label-default label">Inactivo</span>                                    '+
     '    </td>                                                                                    '+
     '    <td class="center">                                                                      '+
-    '        <a class="btn btn-success" target="_blank" href="#">            '+
+    '        <a class="btn btn-success" href="#">            '+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>                     '+
     '            Ver                                                                              '+
     '        </a>                                                                                 '+
@@ -843,7 +843,7 @@ $(document).ready(function(){
 	'<tr>'+
      '   <td>'+
 	 '      <i class="glyphicon glyphicon-file"></i>                                             '+
-	 ' Registro Civil</td>'+
+	 ' Registro Civil.jpg</td>'+
       '  <td class="center">1986/01/05 12:01</td>'+
        ' <td class="center"> </td>'+
         '<td class="center">'+
@@ -869,14 +869,14 @@ $(document).ready(function(){
     '<tr>'+
     '    <td>'+
 	'      <i class="glyphicon glyphicon-file"></i>                                             '+
-	' Declaraci\u00f3n Renta</td>'+
+	' Declaraci\u00f3n Renta.pdf</td>'+
     '    <td class="center">2014/12/17 18:13</td>'+
     '    <td class="center">2015/08/25 07:06</td>'+
     '    <td class="center">'+
     '        <span class="label-warning label label-default">Pendiente</span>'+
     '    </td>'+
     '    <td class="center">'+
-    '        <a class="btn btn-success" target="_blank" href="#">'+
+    '        <a class="btn btn-success" href="#">'+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
     '            Ver'+
     '        </a>'+
@@ -895,14 +895,14 @@ $(document).ready(function(){
     '<tr>'+
     '    <td>'+
 	'      <i class="glyphicon glyphicon-file"></i>                                             '+
-	' RUT</td>'+
+	' RUT.pdf</td>'+
     '    <td class="center">2013/01/05 12:01</td>'+
     '    <td class="center">2014/02/01 09:01</td>'+
     '    <td class="center">'+
     '        <span class="label-default label">Inactivo</span>'+
     '    </td>'+
     '    <td class="center">'+
-    '        <a class="btn btn-success" target="_blank" href="#">'+
+    '        <a class="btn btn-success" href="#">'+
     '            <i class=" glyphicon glyphicon-download-alt icon-white"></i>'+
     '            Ver'+
     '        </a>'+
